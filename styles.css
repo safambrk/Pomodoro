@@ -1,6 +1,8 @@
 * {
-    background-color: bisque;
+    background-color: #b392ac;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .main {
@@ -45,10 +47,24 @@ button:hover {
 }
 
 .footer {
-    font-size: xx-small;
+    font-size: small;
     position:absolute;
     bottom:0;
     height:40px;
+}
+
+.bar {
+    position:absolute;
+    border-radius: 100px;
+    top:0;
+    width: 100%;
+}
+  
+.progressBar {
+    width: 0;
+    height: 20px;
+    margin: 5px 0;
+    border-radius: 100px;
 }
 
 @media only screen and (min-width: 1400px) {
