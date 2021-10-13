@@ -34,19 +34,19 @@ function switchMode(currentModeTimer) {
         case 'pomodoro':
             var nodes = document.querySelectorAll('*');
             for(var i=0; i < nodes.length; i++) {
-                nodes[i].style.backgroundColor = '#b392ac';
+                nodes[i].style.backgroundColor = '#5E6668';
             }
             break;
         case 'shortBreak':
             var nodes = document.querySelectorAll('*');
             for(var i=0; i < nodes.length; i++) {
-                nodes[i].style.backgroundColor = '#d1b3c4';
+                nodes[i].style.backgroundColor = '#AC9676';
             }
             break;
         case 'longBreak':
             var nodes = document.querySelectorAll('*');
             for(var i=0; i < nodes.length; i++) {
-                nodes[i].style.backgroundColor = '#e8c2ca';
+                nodes[i].style.backgroundColor = '#49545B';
             }
             break;
     }
