@@ -16,5 +16,10 @@ $ docker-compose build
 
 
 
-# Access Pomodoro App on Browser
+# Access Pomodoro App
 Open http://localhost:5000/
+
+
+
+# Docker Hub Repo
+https://hub.docker.com/repository/docker/safambrk/pomodoro
