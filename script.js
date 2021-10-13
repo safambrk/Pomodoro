@@ -7,6 +7,7 @@ const timer = {
 
 let countId;
 let currentModeTimer = timer.pomodoro;
+
 /**
  * 
  * ************ START FUNCTIONS ****************
