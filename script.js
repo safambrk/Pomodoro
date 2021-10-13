@@ -40,7 +40,7 @@ function switchMode(currentModeTimer) {
         case 'shortBreak':
             var nodes = document.querySelectorAll('*');
             for(var i=0; i < nodes.length; i++) {
-                nodes[i].style.backgroundColor = '#AC9676';
+                nodes[i].style.backgroundColor = '#708160';
             }
             break;
         case 'longBreak':
