@@ -131,13 +131,13 @@ function updateProgress() {
 
 // Play start sound
 function startSound() {
-    const start = new Audio('../assets/start.mp3');
+    const start = new Audio('assets/start.mp3');
     start.play();
 }
 
 // Play stop sound
 function stopSound() {
-    const stop = new Audio('../assets/stop.mp3');
+    const stop = new Audio('assets/stop.mp3');
     stop.play();
 }
 
